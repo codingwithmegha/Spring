@@ -1,5 +1,4 @@
 package com.megha.project.studentmgmt.Student_Management.model;
-
 import jakarta.persistence.*;
 
 @Entity
@@ -10,6 +9,7 @@ public class StudentManagement {
 	@Column(name="student_mgmt_id")
 	private Long id;    //student's id #
 	private String StudentName;  //student's name
+	@Column(name="student_name")
 	private String course; //student's course
 	private int age;       //student's age
 	private int year;      //student's year level
